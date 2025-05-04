@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.project.controllers.ReportsController" spacing="10" style = "-fx-padding: 20">
+    <HBox spacing="10">
+        <Label text="Get a report by:"/>
+        <ComboBox fx:id="timePeriod" prefWidth="150"/>
+    </HBox>
+
+    <HBox fx:id="daySel" spacing="10" visible="true">
+        <DatePicker fx:id="dayDatePicker" />
+    </HBox>
+
+    <HBox fx:id="weekSel" spacing="10" visible="false">
+        <DatePicker fx:id="weekStartDatePicker"/>
+        <DatePicker fx:id="weekEndDatePicker"/>
+    </HBox>
+
+    <HBox fx:id="monthSel" spacing="10" visible="false">
+        <ComboBox fx:id="month" />
+        <ComboBox fx:id="monthYear"/>
+    </HBox>
+
+    <HBox fx:id="yearSel" spacing="10" visible="false">
+        <ComboBox fx:id="year" />
+    </HBox>
+
+    <BorderPane fx:id="border"> </BorderPane>
+</VBox>

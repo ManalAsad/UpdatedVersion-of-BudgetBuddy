@@ -1,0 +1,71 @@
+/* login designs */
+.login-button {
+    -fx-background-color: #B0D699;
+    -fx-text-fill: black;
+    padding: 15px;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #A5CE8C;
+}
+
+.login-button:pressed {
+    -fx-background-color: #93B97C;
+}
+
+.root-pane {    /*color of start screen window*/
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #8ba774, #5e9874ff);
+}
+
+/* HOMW WINDOW*/
+
+ .sidebar {
+     -fx-background-color: #EBCA6D;
+     -fx-spacing: 10;
+ }
+
+ .menuButton {
+     -fx-background-color: transparent;
+     -fx-text-fill: white;
+     -fx-font-size: 20px;
+     -fx-padding: 15;
+     -fx-cursor: hand;
+ }
+
+ .menuButton:hover {
+     -fx-background-color: #DFB950;
+ }
+
+ /* Navigation buttons in sidebar */
+ .nav-button {
+     -fx-background-color: transparent;
+     -fx-text-fill: white;
+     -fx-font-size: 14px;
+     -fx-alignment: center-left;
+     -fx-padding: 10 15;
+     -fx-cursor: hand;
+ }
+
+ .nav-button:hover {
+     -fx-background-color: #C1D84B;
+ }
+
+ .active-nav-button {
+     -fx-background-color: #B0C83B;
+     -fx-font-weight: bold;
+ }
+
+ /* Notification area */
+ .notification-sidebar {
+     -fx-background-color: #F5ECD3;
+     -fx-spacing: 10;
+     -fx-padding: 10;
+ }
+
+ .notification-button {
+     -fx-background-color: transparent;
+     -fx-padding: 15;
+     -fx-cursor: hand;
+ }
+
